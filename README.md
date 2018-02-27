@@ -1,7 +1,3 @@
-[![Build Status](https://travis-ci.org/leovo2708/ngx-treeview.svg)](https://travis-ci.org/leovo2708/ngx-treeview)
-[![codecov](https://codecov.io/gh/leovo2708/ngx-treeview/badge.svg)](https://codecov.io/gh/leovo2708/ngx-treeview)
-[![npm version](https://img.shields.io/npm/v/ngx-treeview.svg)](https://www.npmjs.com/package/ngx-treeview)
-[![npm](https://img.shields.io/npm/l/ngx-treeview.svg)]()
 
 # ngx-treeview
 
@@ -10,7 +6,6 @@ An Angular treeview component with checkbox
 ## Dependencies
 
 * [Angular](https://angular.io)
-* [Lodash](https://lodash.com)
 * [Bootstrap 4](https://getbootstrap.com)
 * [Font Awesome 4](http://fontawesome.io)
 
@@ -26,11 +21,6 @@ You can customize CSS yourself to break down dependencies to Bootstrap & Font Aw
 * Internationalization (i18n) support
 * Template
 * Checkbox with tri-state
-
-## Demo
-
-[https://leovo2708.github.io/ngx-treeview/](https://leovo2708.github.io/ngx-treeview/)
-([Source code](https://github.com/leovo2708/ngx-treeview/tree/master/src/demo))
 
 ## Installation
 
@@ -140,10 +130,3 @@ Extract data from list of checked TreeviewItem and send it in parameter of event
 * DefaultTreeviewEventParser: return values of checked items.
 * DownlineTreeviewEventParser: return list of checked items in orginal order with their ancestors.
 * OrderDownlineTreeviewEventParser: return list of checked items in checked order with their ancestors. Note that: value of a leaf must be different from value of other leaves.
-
-#### Templating:
-See example 4 & 5.
-
-## Contributing
-
-I am very appreciate for your ideas, proposals and found bugs which you can leave in github issues. Thanks in advance!
